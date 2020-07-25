@@ -1,0 +1,47 @@
+
+.fondoLeft
+{
+    background-image: url('../imagen/sonrisa.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: 100% 100%;
+
+}
+
+.btnVerde
+{
+    background-color: #05ED28;
+}
+
+
+.marginLeft
+{
+    margin-left: 32%;
+}
+
+.todoelEspacio
+{
+    width: 100%;
+
+}
+.marginTop
+{
+    margin-top: 25%;
+}
+.triangulo
+{
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-top: 60px solid gray;
+    border-bottom: 60px solid yellow;
+    border-right: 60px solid blue;
+    border-left: 60px solid violet;
+    margin-top: 25%;
+    margin-left: 25%;
+    transform: rotate(-10deg);
+
+}
+
+

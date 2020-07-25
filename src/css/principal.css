@@ -1,0 +1,158 @@
+.sombraFoto{
+
+    -webkit-box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.fotoLogin
+{
+    position: absolute;
+    top:20px;
+    right: 30px;
+}
+
+
+
+.textoTitulo
+{   
+    position: absolute;
+    top:20%;
+    left: 10%;
+    color: white;
+
+}
+
+.divTitulo
+{   
+    position: absolute;
+    top:45%;
+    left: 12%;
+    color: white;
+    border: solid 1px white;
+    border-radius: 25px;
+    width: 25%;
+    height: 3em;
+    text-align: center;
+    padding: 8px;
+    
+
+}
+
+
+.imgRedonda{
+    background-size: contain;
+    background-repeat: round;
+    background-image: url(../imagen/sonrisa.jpg);
+    height: 202px;
+    width: 202px;
+    border-radius: 11em ;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.imgRedondaDos{
+    background-size: contain;
+    background-repeat: round;
+    background-image: url(../imagen/familia.jpg);
+    height: 202px;
+    width: 202px;
+    border-radius: 11em ;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+.imgRedondaTres{
+    background-size: contain;
+    background-repeat: round;
+    background-image: url(../imagen/registralo.jpg);
+    height: 202px;
+    width: 202px;
+    border-radius: 11em ;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+
+
+.centro{
+    text-align: center;
+}
+.margenTop
+{
+
+    margin-top: 10em;
+}
+
+
+.margenTopdos
+{
+
+    margin-top: 30em;
+}
+
+
+.pie
+{
+    bottom: 0;
+    height: 5em;
+    background-color: white;
+    position: relative;
+
+}
+
+body
+{
+    background-color: #FAFAFA;
+
+}
+
+.logoFootUno
+{
+    position: absolute;
+    right: 9em;
+    top: 25%;
+}
+.logoFootDos
+{
+    position: absolute;
+    right: 5em;
+    top: 25%;
+}
+
+.logoFootTres
+{
+    position: absolute;
+    right: 1em;
+    top: 17%;
+    height: 48px;
+}
+
+.tituloParallax {
+    position: absolute;
+    left: 10%;
+    font-size: 4rem;
+    color: white;
+    width: 38%;
+    top: 60px;
+}
+
+
+
+
+.imagenParallax {
+    position: absolute;
+    right: 20%;
+    top: 39%;
+    height: 16rem;
+}
+.parrafoCircular
+{
+    font-size: 2rem;
+}
+

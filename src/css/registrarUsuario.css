@@ -1,0 +1,45 @@
+.fondoPrincipal
+{
+    background-image: url('../imagen/imgRegUser.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: 100% 100%;
+    position: absolute;
+
+
+}
+
+
+.fondoSecundario
+{
+    position: absolute;
+   
+    width: 35vw;
+    background: white;
+    top: 12%;
+    left: 33%;
+
+    border-radius: 25px;
+
+
+    
+
+}
+
+.azul
+{
+    background: #0FB2D0;
+}
+
+.margen
+{
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.texto{
+    text-align: center;
+    font-size: 2.0rem; 
+}

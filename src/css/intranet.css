@@ -1,0 +1,228 @@
+.divCabeza
+{
+    height: 5rem;
+    background-color:#505050;
+    position: relative;
+}
+nav{
+color: #fff;
+    background-color: #4caf50!important;
+    width: 100%;
+}
+.cajaControl
+{
+    border:solid 1px #B5ABAB;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 25px;
+}
+
+
+.cajaTopInforme
+{
+
+    height: 2  em;
+    background-color: #0FB2D0;
+    text-align: center;
+    color: black;
+
+    padding: 6px;
+    /* font-size: 1em; */
+    font-size: 25px;
+}
+
+
+.toothbrush
+{
+    color: white;
+    position: absolute;
+    top: 19%;
+    left: 2em;
+    font-size: 2em;
+    margin: 0;
+}
+
+.imgTooth
+{
+    
+    top: 6%;
+}
+
+
+.dieciseis
+{
+    margin: 0px;
+    position: absolute;
+    top: 16%;
+    left: 47%;
+}
+
+.mesCal{
+
+margin: 0px;
+    position: absolute;
+    top: 53%;
+    left: 41%;}
+
+ .divRelative
+ {
+     position: relative;
+ }   
+
+
+ .marginTop12vh
+ {
+
+    margin-top: 12vh;
+ }
+.imagenAvatar
+{
+    height: 19vh;
+    left: 29%;
+    position: absolute;
+    top: 1em;
+
+}
+.pAvatar
+{
+    position: absolute;
+    top: 46%;
+    font-size:1.5rem;
+    
+
+}
+
+
+
+
+.countHigiene{
+
+    position: absolute;
+    top: 0;
+    left: 3em;
+    font-size: 2em;
+    margin: 0
+    
+    }
+   .pCita{
+    position: absolute 0;
+    left: 2.5em;
+    font-size: 2em;
+    margin: 0;
+    }
+    .pDia
+    { position: absolute;
+    margin: 0;
+    top: 39%;
+    left: 53%;
+    }
+    
+   .pMes
+    {
+    position: absolute;
+    margin: 0;
+    top: 74%;
+    left: 46%;
+    }
+
+
+    .pCitaDos{
+        position: absolute;
+        margin: 0;
+        top: 0;
+        left: 67%;
+    
+    }
+
+    
+.interfacePdia{
+    margin: 0px;
+    position: absolute;
+    top: 16%;
+    left: 47%}
+
+.interfacePmes{
+margin: 0px;
+position: absolute;
+top: 53%;
+left: 41%;}
+
+.posicionPlus
+{
+    position: absolute;
+    left: 19%;
+}
+
+
+@media only screen and (max-width: 992px)
+{
+    .nodisplay{
+        display: none;
+       
+    }
+    .imagenAvatar {
+        height: 50vw;
+        left: 29%;
+        position: absolute;
+        top: 1em;
+    }
+    .cincuenta{
+
+        height: 55vw;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px)
+{
+
+   
+
+   
+    .posicionPlus
+    {
+        
+        position: absolute;
+        left: 0%;
+    }
+    .countHigiene {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        font-size: 2em;
+        margin: 0;
+    }
+    .interfacePdia {
+        margin: 0px;
+        position: absolute;
+        top: 16%;
+        left: 50%;
+    }
+    .pCitaDos {
+        position: absolute;
+        margin: 0;
+        top: 0;
+        left: 59%;
+    }
+
+    .pDia {
+        position: absolute;
+        margin: 0;
+        top: 39%;
+        left: 50%;
+    }
+
+
+
+    
+
+   
+
+    .anchominimo
+{
+    min-width: 320px;
+}
+}

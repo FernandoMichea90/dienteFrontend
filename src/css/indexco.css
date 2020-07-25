@@ -1,0 +1,108 @@
+
+.fondoLeft
+{
+    background-image: url('../imagen/sonrisa.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: 100% 100%;
+    position: absolute;
+    
+
+}
+
+.btnVerde
+{
+    background-color: #05ED28;
+}
+
+
+.marginLeft
+{
+    margin-left: 32%;
+}
+
+.todoelEspacio
+{
+    width: 100%;
+
+}
+.marginTop
+{
+    margin-top: 25%;
+   
+}
+
+.pTexto
+{
+
+
+    text-align: center;
+    color: black;
+    margin-top: 13%;
+}
+
+.divTop
+{
+    
+    border-radius: 43px;
+
+
+}
+
+.triangulo
+{
+
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 50vh solid transparent;
+    border-right: 20vh solid white;
+    border-bottom: 50vh solid transparent;
+    top: 0;
+    right: 0;
+
+  
+}
+.divLogin
+{
+    position: absolute;
+    right: 0!important;
+}
+
+body
+{
+    background: white!important;
+}
+@media only screen and (max-width: 992px)
+{
+
+    .fondoLeft
+{
+    background-image: none;
+    height: 100vh;
+    background-size: cover;
+    background-position: 100% 100%;
+    position: absolute;
+
+}
+
+.divTop
+{
+    
+    background: #fbfbfb9e;
+    padding: 72px;
+    border-radius: 43px;
+
+
+}
+.pTexto
+{
+
+
+    text-align: center;
+    color: white;
+    margin-top: 13%;
+}
+
+
+}
