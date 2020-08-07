@@ -1,8 +1,8 @@
 import React, { Fragment,useContext } from 'react'
 import { Parallax } from "react-materialize";
 
+import imgPrincipal from '../imagen/dientefoto.jpg'
 import imgLogin from '../imagen/circle.png'
-import imgPrincipal from '../imagen/nick-fewings-BPDJLWz_Bog-unsplash (4).jpg'
 import Imagen from '../componentes/Imagen'
 import imgRegistralo from '../imagen/registralo.jpg'
 import imgFamilia from '../imagen/familia.jpg'
