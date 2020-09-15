@@ -1,0 +1,61 @@
+
+.botonPrincipal{
+
+    background: #67b3ac;
+    position: fixed;
+    height: 75px;
+    width: 75px;
+    top: 81%;
+    left: 81%;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+}
+
+.ibPrincipal{
+    transform: translate(18px, 15px);
+    font-size: xxx-large;    
+}
+
+@media only screen and (min-width: 992px)
+{
+
+
+
+    .botonPrincipal{
+        display: none;
+       
+    }
+    
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -10,7 +10,7 @@ import Grafico from '../../src/componentes/Grafico.js'
 import ListaGrafico from '../../src/componentes/listaGrafico'
 import Footer from '../componentes/Footer'
 import clienteAxios from '../config/axios';
-import formato from 'moment';
+import BotonFlotante from '../componentes/BotonFlotante'
 
 
 
@@ -111,7 +111,7 @@ if(!auth.auth)
      
      <div class="col s12 cajaTopInforme">
          
-             Informe 
+            Informe
        
      </div>
      
@@ -161,6 +161,7 @@ if(!auth.auth)
      
                 <Footer></Footer>
      
+     <BotonFlotante></BotonFlotante>
           </Fragment>
         
         

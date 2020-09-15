@@ -151,7 +151,7 @@ Registro Diario
                             target:
                             {
                                 name:"fecha",
-                                value:newDate
+                                value:moment(newDate).format('LL')
      
                             }     
 

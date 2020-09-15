@@ -1,18 +1,17 @@
-import React, { Fragment,useContext } from 'react'
-import { Parallax } from "react-materialize";
-
+import React, { Fragment,useContext,useEffect } from 'react'
 import imgPrincipal from '../imagen/dientefoto.jpg'
-import imgLogin from '../imagen/circle.png'
 import Imagen from '../componentes/Imagen'
-import imgRegistralo from '../imagen/registralo.jpg'
-import imgFamilia from '../imagen/familia.jpg'
-import imgParallax from '../imagen/technology.png'
-import imgParallaxFondo from '../imagen/cepillo.jpg'
 import ParalaxCom from '../componentes/Parrallax'
 import Footer from '../componentes/Footer'
-import {Link} from 'react-router-dom'
 import Navegacion from '../componentes/Navbar'
 import {CRMContext} from '../context/CRMContext'
+
+
+
+
+const prueba = {
+        margin:'10px 0 0 0'    
+  };
 
 
 function Home()
@@ -23,14 +22,16 @@ function Home()
 
         console.log(auth);
         
-
+        useEffect(() => {
+          document.title="Inicio"
+        }, [])
         return(
 
           <Fragment>  
               <Navegacion></Navegacion>
 
             <div class="row">
-            <div class="col s12 divRelative">
+            <div class="col s12 divRelative" style={prueba}>
                
                 <img class="sombraFoto" src={imgPrincipal}  width="100%"  />
                  <h1 class="textoTitulo">Toothbrush</h1>  
@@ -119,7 +120,6 @@ De tu salud dental
 
 <Footer></Footer>
      
-   
    
     </Fragment>
 
