@@ -78,17 +78,28 @@ function ListaGrafico(props){
                     var lista=diariosConsulta.data;
 
                     for (let i = 0; i < lista.length; i++) {
-                           var fechaprueba=moment.tz(lista[i].fecha,'America/Santiago')
-                           console.log("LA FECHA TZ");
-                           console.log(fechaprueba);
+
+
+                            console.log("Sin formato local");
+                            console.log(lista[i].fecha);
+                            
+                            
+                           var fechaprueba=moment.tz(lista[i].fecha,'Asia/Kuwait')
+                           
                            
                            
                            
 
                            var fechaLocal=fechaprueba.format()
                            var fechaLocal=lista[i].fecha
-
-                           var fechaFinal =formato(fechaLocal).format('LL');
+                           console.log("Muestra FF");
+                           console.log(fechaLocal);
+                           
+                           var fechaFinal =formato(fechaLocal).format('MMMM Do YYYY, h:mm:ss a');
+                           console.log("Fecha Final");
+                           console.log(fechaFinal);
+                           
+                           
                            lista[i].fecha=fechaFinal;
                            
 
