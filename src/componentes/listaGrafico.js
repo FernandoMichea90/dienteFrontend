@@ -85,17 +85,20 @@ function ListaGrafico(props){
                             
                             
                            var fechaprueba=moment.tz(lista[i].fecha,'Asia/Kuwait')
+                           console.log("Kuwait");
+                           console.log(fechaprueba);
+                           
                            
                            
                            
                            
 
                            var fechaLocal=fechaprueba.format()
-                           var fechaLocal=lista[i].fecha
+                           //var fechaLocal=lista[i].fecha
                            console.log("Muestra FF");
                            console.log(fechaLocal);
                            
-                           var fechaFinal =formato(fechaLocal).format('MMMM Do YYYY, h:mm:ss a');
+                           var fechaFinal =formato(fechaLocal).format('LL');
                            console.log("Fecha Final");
                            console.log(fechaFinal);
                            
