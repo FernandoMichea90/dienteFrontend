@@ -86,7 +86,7 @@ function ListaGrafico(props){
                            
 
                            var fechaLocal=fechaprueba.format()
-                           var fechaLocal=lista[i].fecha.format()
+                           var fechaLocal=lista[i].fecha
 
                            var fechaFinal =formato(fechaLocal).format('LL');
                            lista[i].fecha=fechaFinal;

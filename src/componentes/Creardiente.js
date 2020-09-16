@@ -85,10 +85,21 @@ const agregarDiente=e=>{
         }
         
         )
+
+
+   
+        
     }
 
 
 
+                useEffect(() => {
+                    console.log("CAMBIO DATE");
+                    console.log(diente.fecha);
+                    
+                    
+                   
+                }, [diente])
 
 
 
