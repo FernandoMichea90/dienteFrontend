@@ -80,30 +80,26 @@ function ListaGrafico(props){
                     for (let i = 0; i < lista.length; i++) {
 
 
-                            console.log("Sin formato local");
-                            console.log(lista[i].fecha);
                             
                             
                            var fechaprueba=moment.tz(lista[i].fecha,'Asia/Kuwait')
-                           console.log("Kuwait");
-                           console.log(fechaprueba);
                            
                            
                            
                            
                            
 
-                           var fechaLocal=fechaprueba.format()
-                           //var fechaLocal=lista[i].fecha
-                           console.log("Muestra FF");
-                           console.log(fechaLocal);
-                           
-                           var fechaFinal =formato(fechaLocal).format('LL');
-                           console.log("Fecha Final");
-                           console.log(fechaFinal);
+                           //var fechaLocal=fechaprueba.format()
+                           var fechaLocal=lista[i].fecha
                            
                            
-                           lista[i].fecha=fechaFinal;
+                           var fechaFinal =moment(fechaLocal).format('MMMM Do YYYY, h:mm:ss a');
+                           var newYork = moment.tz(fechaLocal, "Europe/Kirov");
+                          
+                           
+                           
+                           
+                           lista[i].fecha=moment(newYork).format('llll');
                            
 
 
@@ -134,7 +130,7 @@ function ListaGrafico(props){
 
         
 
-        },[])
+        },[dientes])
             
 
 

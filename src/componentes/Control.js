@@ -42,6 +42,10 @@ function Control(props){
 
                 
                     var lista=diariosConsulta.data;
+                    console.log("esta es la lista de consulta");
+                    console.log(lista);
+                    
+                    
 
                     for (let i = 0; i < lista.length; i++) {
                            var fechaprueba=moment.tz(lista[i].fecha,'America/Santiago')       

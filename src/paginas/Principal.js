@@ -51,7 +51,7 @@ useEffect(()=>{
         } catch (error) {
 
 
-            if(error.response.status = 500)
+            if(error.response.status = 500 ||error.response.status==undefined)
             {
                 props.history.push('/login')
             }

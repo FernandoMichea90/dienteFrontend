@@ -71,9 +71,11 @@ import {CRMContext}from '../context/CRMContext'
                   cepillodos.push(numero)
 
                   // fecha 
-                  var fechaprueba=moment.tz(lista[i].fecha,'America/Santiago')       
+                  var fechaprueba=moment.tz(lista[i].fecha,'"Europe/Kirov"')  
+
                      var fechaLocal=fechaprueba.format()
-                     var fechaFinal =formato(fechaLocal).format('LL');
+
+                     var fechaFinal =formato(fechaprueba).format('LL');
                      lista[i].fecha=fechaFinal;
 
                   let fechatest=lista[i].fecha
