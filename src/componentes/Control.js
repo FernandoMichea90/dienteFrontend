@@ -48,7 +48,7 @@ function Control(props){
                     
 
                     for (let i = 0; i < lista.length; i++) {
-                           var fechaprueba=moment.tz(lista[i].fecha,'America/Santiago')       
+                           var fechaprueba=moment.tz(lista[i].fecha,'Europe/Kirov')       
                            var fechaLocal=fechaprueba.format()
                            var fechaFinal =formato(fechaLocal).format('LL');
                            lista[i].fecha=fechaFinal;
